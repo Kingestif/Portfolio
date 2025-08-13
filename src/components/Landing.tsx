@@ -1,13 +1,9 @@
-import './App.css'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-import About from './components/About'
-import { Navbar } from './components/Navbar'
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import About from "./About";
 
-function App() {
-  return (
+export function Landing(){
+    return (
     <div className='App'>
-      <Navbar/>
-      
       <Parallax pages={2} style={{top:'0', left: '0'}} className="animation">
         
         <ParallaxLayer offset={0} speed={0.1}>
@@ -58,5 +54,3 @@ function App() {
     </div>
   )
 }
-
-export default App

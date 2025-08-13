@@ -9,6 +9,21 @@
 	position: absolute;
 }
 
+.navbar {
+  position: fixed;  
+  width: 100%;
+  z-index: 1;      
+  /* display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background: rgba(0,0,0,0.3); 
+  color: white; */
+}
+
+/* .about {
+    z-index: 2;
+} */
+
 #background{
     background-image: url(./assets/background.png);
 }

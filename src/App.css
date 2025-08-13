@@ -1,14 +1,12 @@
 @import "tailwindcss";
 
-
-.animation, .animation_layer {
+.animation_layer {
     height: 1200px;
-}
-
-.animation{
-    display: block;
-    position: relative;
-    z-index: 10;
+	background-position: center;
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
 }
 
 #background{
@@ -35,11 +33,8 @@
     background-image: url(./assets/jungle5.png);
 }
 
-#land_logo{
-    /* background-image: url(./assets/dark.jpg); */
-    background-color: black;
-    height: 100%;
-    width: 100%;
+#logoland{
+    background-image: url(./assets/logo_land.png);
 }
 
 #man_on_mountain{
@@ -50,23 +45,6 @@
     background-image: url(./assets/mountains.png);
 }
 
-/* #dark{
-    background-image: url(./assets/dark.jpg);
-} */
-
-.animation_layer {
-	background-position: center;
-	background-size: auto 100%;
-	background-repeat: repeat-x;
-	width: 100%;
-	position: absolute;
-}
-
-.animation_layer.parallax {
-	position: fixed;
-}
-
-#dark_page {
-  background-color: #210002;
-  height: 100vh;
+#black{
+    background-image: url(./assets/BlackP.png);
 }

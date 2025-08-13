@@ -2,8 +2,8 @@ import { Download } from "lucide-react";
 
 function About() {
     return (
-        <div className="h-screen bg-black flex text-white px-40">
-            <div className="Left flex flex-col justify-around my-30 ">
+        <div className="h-screen bg-black flex text-white px-40 items-center">
+            <div className="Left flex flex-col justify-around h-screen ">
                 <div className="flex flex-col gap-5">
                     <div className="flex flex-col gap-2">
                         <div className="font-bold text-3xl underline underline-offset-4 decoration-yellow-500">ABOUT</div>
@@ -21,8 +21,7 @@ function About() {
 
             </div>
 
-            <div className="Pic"></div>
-            <img className="w-200 h-200" src="/me4.png" alt="" />
+            <img className="bg-yellow-500 rounded-full w-150 h-150" src="/me7.png" alt="" />
         </div>
     );
 }

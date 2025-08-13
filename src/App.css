@@ -9,21 +9,6 @@
 	position: absolute;
 }
 
-.navbar {
-  position: fixed;  
-  width: 100%;
-  z-index: 1;      
-  /* display: flex;
-  justify-content: space-around;
-  padding: 1rem;
-  background: rgba(0,0,0,0.3); 
-  color: white; */
-}
-
-/* .about {
-    z-index: 2;
-} */
-
 #background{
     background-image: url(./assets/background.png);
 }
@@ -62,4 +47,41 @@
 
 #black{
     background-image: url(./assets/BlackP.png);
+}
+
+/* Navbar */
+
+.navbar {
+  position: fixed;  
+  width: 100%;
+  z-index: 1;      
+}
+
+/* Projects */
+.checkpoints div{
+    border: solid 1px;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+.timeline{
+    width: 40rem;
+}
+
+.checkpoints:nth-child(odd){    /*move them half of above timeline*/
+    border-left: 3px solid yellow;
+    padding-left: 3rem;
+    transform: translate(20rem);
+}
+
+.checkpoints:nth-child(even){
+    border-right: 3px solid yellow;
+    padding-right: 3rem;
+    transform: translate(-20rem)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

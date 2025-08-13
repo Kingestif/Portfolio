@@ -2,13 +2,14 @@ import './App.css'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import About from './components/About'
 import { Navbar } from './components/Navbar'
+import { Projects } from './components/Projects'
 
 function App() {
   return (
     <div className='App'>
       <Navbar/>
       
-      <Parallax pages={2} style={{top:'0', left: '0'}} className="animation">
+      <Parallax pages={3} style={{top:'0', left: '0'}} className="animation">
         
         <ParallaxLayer offset={0} speed={0.1}>
           <div className='animation_layer' id='background'></div>
@@ -50,8 +51,12 @@ function App() {
           <div className='animation_layer' id='black'></div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1} speed={0.25}>
+        <ParallaxLayer offset={1} speed={0}>
           <About/>
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={2} speed={0}>
+          <Projects/>
         </ParallaxLayer>
 
       </Parallax>

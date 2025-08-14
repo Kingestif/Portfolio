@@ -1,6 +1,6 @@
 export function Projects(){
     return (
-        <div className=" text-white h-screen flex flex-col bg-amber-800 items-center pt-10 gap-5">
+        <div className=" text-white flex flex-col bg-amber-800 items-center pt-10 gap-5">
             <div className="title">
                 <h1 className="font-bold text-3xl">Projects</h1>
             </div>

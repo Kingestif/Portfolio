@@ -64,24 +64,30 @@
     border-radius: 2rem;
 }
 
-.timeline{
+.timeline {
+    position: relative;
     width: 40rem;
 }
 
-.checkpoints:nth-child(odd){    /*move them half of above timeline*/
-    border-left: 3px solid yellow;
+/* vertical center line, used "::before" instead of additional HTML element */
+.timeline::before {
+    content: "";
+    position: absolute;
+    width: 3px; 
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%);    /* Truly center it*/
+    height: 100%;
+    background-color: white;
+    z-index: 0;
+}
+
+.checkpoints:nth-child(odd){    
     padding-left: 3rem;
     transform: translate(20rem);
 }
 
 .checkpoints:nth-child(even){
-    border-right: 3px solid yellow;
     padding-right: 3rem;
     transform: translate(-20rem)
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }

@@ -6,14 +6,14 @@ export function Projects(){
             </div>
 
             <div className="timeline flex flex-col bg-red-600">
-                <div className="checkpoints bg-blue-300">
+                <div className="checkpoints">
                     <div>
                         <h1>Project Name</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores labore explicabo consequuntur saepe laudantium natus quia nesciunt eaque iusto et, tenetur eius fugit veritatis cumque eos optio. Fuga, velit deserunt?</p>
                     </div>
                 </div>
 
-                <div className="checkpoints bg-blue-300">
+                <div className="checkpoints">
                     <div>
                         <h1>Project Name</h1>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores labore explicabo consequuntur saepe laudantium natus quia nesciunt eaque iusto et, tenetur eius fugit veritatis cumque eos optio. Fuga, velit deserunt?</p>

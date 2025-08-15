@@ -2,7 +2,7 @@ import './App.css'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import About from './components/About'
 import { Navbar } from './components/Navbar'
-import { Projects } from './components/Experience'
+import { Experience } from './components/Experience'
 import { useEffect, useRef, useState } from 'react'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
     return (
       <div style={{ visibility: 'hidden', position: 'absolute' }}>
         <div ref={projectsRef}>
-          <Projects />
+          <Experience />
         </div>
       </div>
     )
@@ -74,7 +74,7 @@ function App() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={2} speed={0} factor={projectsFactor}>
-          <Projects/>
+          <Experience/>
         </ParallaxLayer>
 
         <ParallaxLayer offset={2 + projectsFactor} speed={0}>

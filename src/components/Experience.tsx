@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { experiences } from "../utils/experience";
 
-export function Projects() {
+export function Experience() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Mouse move handler

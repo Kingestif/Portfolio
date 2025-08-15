@@ -1,11 +1,11 @@
 export function Projects(){
     return (
-        <div className=" text-white flex flex-col bg-amber-800 items-center pt-10 gap-5">
+        <div className=" text-white flex flex-col bg-black items-center pt-10 gap-5">
             <div className="title">
-                <h1 className="font-bold text-3xl">Projects</h1>
+                <h1 className="font-bold text-3xl underline underline-offset-5 decoration-yellow-500">PROJECTS</h1>
             </div>
 
-            <div className="timeline flex flex-col bg-red-600">
+            <div className="timeline flex flex-col ">
                 <div className="checkpoints">
                     <div>
                         <h1>Project Name</h1>

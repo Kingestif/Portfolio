@@ -58,19 +58,22 @@
 }
 
 /* Projects */
-.checkpoints div{
-    border: solid 1px;
+.checkpoints .card{
+    /* border: solid 1px; */
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 .checkpoints h1{
-    color: #facc15;
+    /* color: #facc15; */
     font-size: large;
 
+}
+.title, .company{
+    color: #facc15;
 }
 
 .timeline {
@@ -86,13 +89,14 @@
 .timeline::before {
     content: "";
     position: absolute;
-    width: 3px; 
+    width: 2px; 
     top: 0;
     left: 50%; 
     transform: translateX(-50%);    /* Truly centere it*/
     height: 100%;
-    background-color: #facc15;
+    background-color: white;
     z-index: 0;
+    opacity: 0.5;
 }
 
 .checkpoints:nth-child(odd){    
@@ -110,11 +114,12 @@
     content: "";
     position: absolute;
     top: 50%; 
-    width: 1rem;
-    height: 1rem;
-    background-color: #facc15;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: white;
     border-radius: 50%;
     z-index: 2;
+    opacity: 0.8;
 }
 
 .checkpoints:nth-child(odd)::before{
@@ -134,7 +139,8 @@
     top:50%;
     width: 3rem;
     height: 2px;
-    background: #facc15;
+    background: white;
+    opacity: 0.5;
 }
 
 .checkpoints:nth-child(odd)::after{
@@ -145,4 +151,37 @@
 .checkpoints:nth-child(even)::after{
     right: 0;
     transform: translateY(-50%); 
+}
+
+/* hover effect */
+.checkpoints .card{
+    /* opacity: 0.7; */
+    transition: 300ms ease-in-out;
+}
+
+.card:hover{
+    opacity: 1;
+    cursor:pointer;
+}
+
+.card:hover::before{
+    opacity: 1;
+}
+.card {
+  --x: -100px;
+  --y: -100px;
+  position: relative;
+  background: radial-gradient(
+    circle 200px at var(--x) var(--y),
+    rgba(250, 204, 21, 0.3),  
+    rgba(0, 0, 0, 0.6)       
+  );
+  transition: background 0.05s;
+}
+
+svg {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  flex-grow: 0;
 }

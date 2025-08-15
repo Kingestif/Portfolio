@@ -2,7 +2,7 @@ import './App.css'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import About from './components/About'
 import { Navbar } from './components/Navbar'
-import { Projects } from './components/Projects'
+import { Projects } from './components/Experience'
 import { useEffect, useRef, useState } from 'react'
 
 function App() {

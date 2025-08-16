@@ -4,6 +4,7 @@ import About from './components/About'
 import { Navbar } from './components/Navbar'
 import { Experience } from './components/Experience'
 import { useEffect, useRef, useState } from 'react'
+import { Projects } from './components/Projects'
 
 function App() {
   //below snippet b/c my Project component excceded 1 page so we need its exact height
@@ -78,8 +79,8 @@ function App() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={2 + projectsFactor} speed={0}>
-          <div className='h-screen bg-blue-500'>Hellow</div>
-        </ParallaxLayer>
+          <Projects/>
+      </ParallaxLayer>
 
       </Parallax>
     </div>

@@ -179,7 +179,7 @@
   transition: background 0.05s;
 }
 
-svg {
+.checkpoints svg {
   width: 40px;
   height: 40px;
   flex-shrink: 0;

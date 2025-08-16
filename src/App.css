@@ -10,43 +10,43 @@
 }
 
 #background{
-    background-image: url(./assets/background.png);
+    background-image: url(./assets/background.webp);
 }
 
 #jungle1{
-    background-image: url(./assets/jungle1.png);
+    background-image: url(./assets/jungle1.webp);
 }
 
 #jungle2{
-    background-image: url(./assets/jungle2.png);
+    background-image: url(./assets/jungle2.webp);
 }
 
 #jungle3{
-    background-image: url(./assets/jungle3.png);
+    background-image: url(./assets/jungle3.webp);
 }
 
 #jungle4{
-    background-image: url(./assets/jungle4.png);
+    background-image: url(./assets/jungle4.webp);
 }
 
 #jungle5{
-    background-image: url(./assets/jungle5.png);
+    background-image: url(./assets/jungle5.webp);
 }
 
 #logoland{
-    background-image: url(./assets/logo_land.png);
+    background-image: url(./assets/logo_land.webp);
 }
 
 #man_on_mountain{
-    background-image: url(./assets/man_on_mountain.png);
+    background-image: url(./assets/man_on_mountain.webp);
 }
 
 #mountains{
-    background-image: url(./assets/mountains.png);
+    background-image: url(./assets/mountains.webp);
 }
 
 #black{
-    background-image: url(./assets/BlackP.png);
+    background-image: url(./assets/BlackP.webp);
 }
 
 /* Navbar */

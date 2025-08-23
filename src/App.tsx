@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar'
 import { Experience } from './components/Experience'
 import { useEffect, useRef, useState } from 'react'
 import { Projects } from './components/Projects'
+import { Contact } from './components/Contact'
 
 function App() {
   //below snippet b/c my Project component excceded 1 page so we need its exact height
@@ -32,7 +33,7 @@ function App() {
     <div className='App'>
       <Navbar/>
       
-      <Parallax pages={3 + projectsFactor} style={{top:'0', left: '0'}} className="animation">
+      <Parallax pages={4 + projectsFactor} style={{top:'0', left: '0'}} className="animation">
 
         <ParallaxLayer offset={0} speed={0.1}>
           <div className='animation_layer' id='background'></div>
@@ -80,7 +81,11 @@ function App() {
 
         <ParallaxLayer offset={2 + projectsFactor} speed={0}>
           <Projects/>
-      </ParallaxLayer>
+        </ParallaxLayer>
+
+        <ParallaxLayer offset={3 + projectsFactor} speed={0}>
+          <Contact/>
+        </ParallaxLayer>
 
       </Parallax>
     </div>

@@ -1,6 +1,6 @@
 export function Contact() {
   return (
-    <div className="w-full text-white px-8 py-20 flex flex-col justify-center my-10">
+    <div className="w-full text-white px-8 py-20 flex flex-col justify-center my-10 items-center">
         <div className="text-3xl font-bold text-center p-10">Contact Me</div>
         <div className="grid md:grid-cols-2 gap-16 max-w-6xl w-full">
         

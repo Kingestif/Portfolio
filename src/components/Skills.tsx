@@ -36,6 +36,9 @@ export function Skills() {
 
   return (
     <div className="overflow-hidden py-6 flex flex-col gap-15">
+        <div className="relative w-full flex items-center">
+          <div className="flex-grow h-[2px] bg-gradient-to-r from-transparent via-purple-500 to-transparent"></div>
+        </div>
         <div className='text-white text-xl font-bold text-center'>SKILLS</div>
         <div className="flex w-max animate-scroll hover:pause gap-20">
             {repeatedSkills.map((skill, idx) => (

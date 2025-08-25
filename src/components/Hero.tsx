@@ -2,7 +2,7 @@ import { Download } from "lucide-react";
 
 export function Hero(){
     return (
-        <div className="h-screen pt-40 flex  justify-between text-white/90">
+        <div className="pt-40 flex  justify-between text-white/90">
             <div className="Left w-1/2 flex flex-col gap-10 pt-7">
                 <div className="text-6xl font-medium">Estifanos Zinabu</div>
                 <div className="text-4xl text-purple-600">Full-Stack Developer</div>

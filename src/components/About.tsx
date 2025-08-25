@@ -1,5 +1,3 @@
-import { Download } from "lucide-react";
-
 function About() {
     return (
         <div className="flex text-white py-20 gap-30">

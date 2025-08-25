@@ -29,9 +29,6 @@ body{
     font-size: large;
 
 }
-.title, .company{
-    color: #facc15;
-}
 
 .timeline {
     position: relative;
@@ -130,11 +127,13 @@ body{
   position: relative;
   background: radial-gradient(
     circle 200px at var(--x) var(--y),
-    rgba(250, 204, 21, 0.3),  
-    rgba(0, 0, 0, 0.6)       
+    rgba(183, 11, 199, 0.3),  
+    rgba(40, 0, 60, 0.322),    
+    rgba(20, 0, 30, 0.308)   
   );
   transition: background 0.05s;
 }
+
 
 .checkpoints svg {
   width: 40px;

@@ -2,7 +2,7 @@ import { Download } from "lucide-react";
 
 export function Hero(){
     return (
-        <div className="flex mt-30 justify-between text-white/90">
+        <div className="h-screen pt-40 flex  justify-between text-white/90">
             <div className="Left w-1/2 flex flex-col gap-10 pt-7">
                 <div className="text-6xl font-medium">Estifanos Zinabu</div>
                 <div className="text-4xl text-purple-600">Full-Stack Developer</div>
@@ -28,12 +28,12 @@ export function Hero(){
                 <div className="mt-10 flex gap-10 text-xl">
                     <div className="flex gap-3 items-center border-2 rounded-full py-3 px-4 border-purple-600">
                         <div className="">Get Resume</div>
-                        <Download />
+                        <Download className=""/>
                     </div>
                     <div className=" rounded-full py-3 px-4 flex items-center bg-gradient-to-t from-pink-700 to-purple-600">Contact Me</div>
                 </div>
             </div>
-            <img className="Right " src="/HeroRight.svg" alt="" />
+            <img className="Right w-170 h-170   " src="/HeroRight.svg" alt="" />
         </div>
     )
 }

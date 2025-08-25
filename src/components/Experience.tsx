@@ -19,12 +19,12 @@ export function Experience() {
 
   return (
     <div
-      className="text-white flex flex-col bg-black items-center pt-10 gap-5"
+      className="text-white flex flex-col items-center pt-10 gap-5"
       onMouseMove={handleMouseMove}
       ref={containerRef}
     >
       <div className="title">
-        <h1 className="font-bold text-3xl underline underline-offset-5 decoration-yellow-500">
+        <h1 className="font-bold text-3xl underline underline-offset-5 decoration-purple-600 text-white/90">
           EXPERIENCE
         </h1>
       </div>
@@ -32,11 +32,11 @@ export function Experience() {
       <div className="timeline flex flex-col gap-5">
         {experiences.map(exp => (
           <div className="checkpoints" key={exp.id}>
-            <div className="card p-4 bg-gray-900 rounded-lg relative">
-              <h1 className="text-center text-yellow-400">{exp.duration}</h1>
+            <div className="card p-4 900 rounded-lg relative">
+              <h1 className="text-center text-purple-300">{exp.duration}</h1>
               <div className="flex items-center gap-4">
                 <svg
-                  className="w-40 h-40 text-yellow-400"
+                  className="w-40 h-40 text-purple-500"
                   stroke="currentColor"
                   fill="currentColor"
                   strokeWidth="0"
@@ -50,7 +50,7 @@ export function Experience() {
                 </svg>
                 <div>
                   <h1 className="role font-bold">{exp.title}</h1>
-                  <h1 className="company italic">{exp.company}</h1>
+                  <h1 className="company italic text-purple-300">{exp.company}</h1>
                   <p>{exp.description}</p>
                 </div>
               </div>

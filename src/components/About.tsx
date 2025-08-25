@@ -2,7 +2,7 @@ import { Download } from "lucide-react";
 
 function About() {
     return (
-        <div className="h-screen bg-black flex text-white px-40 items-center">
+        <div className="h-screen flex text-white items-center">
             <div className="Left flex flex-col justify-around h-screen ">
                 <div className="flex flex-col gap-5">
                     <div className="flex flex-col gap-2">
@@ -21,7 +21,7 @@ function About() {
 
             </div>
 
-            <img className="bg-yellow-500 rounded-full w-150 h-150" src="/me7.png" alt="" />
+            <img className="bg-gradient-to-t from-violet-800 to-purple-500 rounded-full w-100 h-100 object-cover" src="/Me.webp" alt="" />
         </div>
     );
 }

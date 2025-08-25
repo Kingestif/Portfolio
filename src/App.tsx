@@ -11,8 +11,8 @@ function App() {
     <div className='App px-70 py-5'>
       <Navbar/>
       <Hero/>
-      {/* <About/> */}
-      {/* <Experience/> */}
+      <About/>
+      <Experience/>
       {/* <Projects/> */}
       {/* <Contact/> */}
     </div>

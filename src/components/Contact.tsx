@@ -1,12 +1,12 @@
 export function Contact() {
   return (
-    <div className="w-full text-white px-8 py-20 flex flex-col justify-center my-10 items-center">
-        <div className="text-3xl font-bold text-center p-10">Contact Me</div>
+    <div className="w-full text-white/90 px-8 py-20 flex flex-col justify-center my-10 items-center">
+        <div className="text-3xl font-bold text-center p-10 text-white">Contact <span className="text-purple-600">Me</span></div>
         <div className="grid md:grid-cols-2 gap-16 max-w-6xl w-full">
         
             {/* Left: Request Form */}
-            <div className=" p-10 rounded-2xl shadow-xl border border-purple-500/30">
-                <h2 className="text-3xl font-bold mb-8">Send a Request</h2>
+            <div className=" p-10 rounded-2xl shadow-xl border border-white/30">
+                <h2 className="text-3xl font-medium mb-8">Send a Request</h2>
                 <form className="flex flex-col gap-6">
                     <input
                         type="text"
@@ -32,8 +32,8 @@ export function Contact() {
             </div>
 
             {/* Right: Contact Info */}
-            <div className="flex flex-col justify-center gap-8 p-10 rounded-2xl shadow-xl border border-purple-500/30">
-                <h2 className="text-3xl font-bold">Contact Information</h2>
+            <div className="flex flex-col justify-center gap-8 p-10 rounded-2xl shadow-xl border border-white/30">
+                <h2 className="text-3xl font-medium">Contact Information</h2>
                 <p className="text-gray-400 text-lg">
                     Feel free to reach out to me through the following:
                 </p>

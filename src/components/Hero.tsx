@@ -5,32 +5,32 @@ export function Hero(){
         <div className="pt-40 flex  justify-between text-white/90">
             <div className="Left w-1/2 flex flex-col gap-10 pt-7">
                 <div className="text-6xl font-medium">Estifanos Zinabu</div>
-                <div className="text-4xl text-purple-600">Full-Stack Developer</div>
-                <div className="text-xl">Full-Stack Software Engineer specializing in building scalable web and mobile applications. I create seamless, user-friendly, and high-performance digital solutions.</div>
+                <div className="text-4xl text-[color:#6C63FF]">Full-Stack Developer</div>
+                <div className="text-xl text-gray-300">Full-Stack Software Engineer specializing in building scalable web and mobile applications. I create seamless, user-friendly, and high-performance digital solutions.</div>
                 <div className="flex gap-10">
-                    <div className="p-0.5 bg-gradient-to-t from-pink-700 to-purple-600 rounded-full">
+                    <a href="https://github.com/Kingestif" target="_blank" className="p-0.5 bg-gradient-to-t from-pink-700 to-purple-600 rounded-full hover:scale-110 duration-300">
                         <svg className="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M237.9 461.4C237.9 463.4 235.6 465 232.7 465C229.4 465.3 227.1 463.7 227.1 461.4C227.1 459.4 229.4 457.8 232.3 457.8C235.3 457.5 237.9 459.1 237.9 461.4zM206.8 456.9C206.1 458.9 208.1 461.2 211.1 461.8C213.7 462.8 216.7 461.8 217.3 459.8C217.9 457.8 216 455.5 213 454.6C210.4 453.9 207.5 454.9 206.8 456.9zM251 455.2C248.1 455.9 246.1 457.8 246.4 460.1C246.7 462.1 249.3 463.4 252.3 462.7C255.2 462 257.2 460.1 256.9 458.1C256.6 456.2 253.9 454.9 251 455.2zM316.8 72C178.1 72 72 177.3 72 316C72 426.9 141.8 521.8 241.5 555.2C254.3 557.5 258.8 549.6 258.8 543.1C258.8 536.9 258.5 502.7 258.5 481.7C258.5 481.7 188.5 496.7 173.8 451.9C173.8 451.9 162.4 422.8 146 415.3C146 415.3 123.1 399.6 147.6 399.9C147.6 399.9 172.5 401.9 186.2 425.7C208.1 464.3 244.8 453.2 259.1 446.6C261.4 430.6 267.9 419.5 275.1 412.9C219.2 406.7 162.8 398.6 162.8 302.4C162.8 274.9 170.4 261.1 186.4 243.5C183.8 237 175.3 210.2 189 175.6C209.9 169.1 258 202.6 258 202.6C278 197 299.5 194.1 320.8 194.1C342.1 194.1 363.6 197 383.6 202.6C383.6 202.6 431.7 169 452.6 175.6C466.3 210.3 457.8 237 455.2 243.5C471.2 261.2 481 275 481 302.4C481 398.9 422.1 406.6 366.2 412.9C375.4 420.8 383.2 435.8 383.2 459.3C383.2 493 382.9 534.7 382.9 542.9C382.9 549.4 387.5 557.3 400.2 555C500.2 521.8 568 426.9 568 316C568 177.3 455.5 72 316.8 72zM169.2 416.9C167.9 417.9 168.2 420.2 169.9 422.1C171.5 423.7 173.8 424.4 175.1 423.1C176.4 422.1 176.1 419.8 174.4 417.9C172.8 416.3 170.5 415.6 169.2 416.9zM158.4 408.8C157.7 410.1 158.7 411.7 160.7 412.7C162.3 413.7 164.3 413.4 165 412C165.7 410.7 164.7 409.1 162.7 408.1C160.7 407.5 159.1 407.8 158.4 408.8zM190.8 444.4C189.2 445.7 189.8 448.7 192.1 450.6C194.4 452.9 197.3 453.2 198.6 451.6C199.9 450.3 199.3 447.3 197.3 445.4C195.1 443.1 192.1 442.8 190.8 444.4zM179.4 429.7C177.8 430.7 177.8 433.3 179.4 435.6C181 437.9 183.7 438.9 185 437.9C186.6 436.6 186.6 434 185 431.7C183.6 429.4 181 428.4 179.4 429.7z"/></svg>
-                    </div>
+                    </a>
 
-                    <div className="p-0.5 bg-gradient-to-t from-pink-700 to-purple-600 rounded-full">
+                    <a href="https://www.linkedin.com/in/estif/" target="_blank" className="p-0.5 bg-gradient-to-t from-pink-700 to-purple-600 rounded-full hover:scale-110 duration-300">
                         <svg className='w-10 h-10' fill='black' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M196.3 512L103.4 512L103.4 212.9L196.3 212.9L196.3 512zM149.8 172.1C120.1 172.1 96 147.5 96 117.8C96 103.5 101.7 89.9 111.8 79.8C121.9 69.7 135.6 64 149.8 64C164 64 177.7 69.7 187.8 79.8C197.9 89.9 203.6 103.6 203.6 117.8C203.6 147.5 179.5 172.1 149.8 172.1zM543.9 512L451.2 512L451.2 366.4C451.2 331.7 450.5 287.2 402.9 287.2C354.6 287.2 347.2 324.9 347.2 363.9L347.2 512L254.4 512L254.4 212.9L343.5 212.9L343.5 253.7L344.8 253.7C357.2 230.2 387.5 205.4 432.7 205.4C526.7 205.4 544 267.3 544 347.7L544 512L543.9 512z"/></svg>
-                    </div>
+                    </a>
 
-                    <div className="p-0.5 bg-gradient-to-t from-pink-700 to-purple-600 rounded-full">
+                    <a href="https://medium.com/@estifanos" target="_blank" className="p-0.5 bg-gradient-to-t from-pink-700 to-purple-600 rounded-full hover:scale-110 duration-300">
                         <svg className="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M465.4 96C508.8 96 544 131.2 544 174.6L544 258.4C542.1 258.3 540.2 258.2 538.3 258.2L537.9 258.2C527.9 258.2 515.6 260.6 506.8 265C496.8 269.6 488.1 276.5 480.8 285.6C469 300.2 461.9 319.9 460.2 342C460.1 342.7 460.1 343.3 460 344C459.9 344.7 459.9 345.2 459.9 345.9C459.8 347.1 459.8 348.3 459.8 349.5C459.8 351.4 459.7 353.3 459.8 355.3C461 405.4 488 445.5 536.1 445.5C538.8 445.5 541.4 445.4 544 445.1L544 465.5C544 508.9 508.8 544.1 465.4 544.1L174.6 544C131.2 544 96 508.8 96 465.4L96 174.6C96 131.2 131.2 96 174.6 96L465.4 96zM178.3 202.9L178.6 203C191.8 206 198.4 210.4 198.4 226.4L198.4 413.6C198.4 429.6 191.7 434 178.5 437L178.2 437.1L178.2 439.9L231 439.9L231 437.1L230.7 437C217.5 434 210.8 429.6 210.8 413.6L210.8 237.3L296.9 439.8L301.8 439.8L390.4 231.6L390.4 418.2C389.3 430.8 382.6 434.7 370.7 437.4L370.4 437.5L370.4 440.2L462.3 440.2L462.3 437.5L462 437.4C450.1 434.7 443.3 430.8 442.1 418.2L442 226.4L442.1 226.4C442.1 210.4 448.8 206 462 203L462.3 202.9L462.3 200.2L390.1 200.2L323.1 357.6L256.1 200.2L178.3 200.2L178.3 202.9zM544 404.3C518.9 396.9 501 369.2 502.8 336.5L502.8 336.5L543.9 336.5L543.9 404.3zM537.6 268.7C539.9 268.7 542 269 544 269.6L544 327L503.8 327C505.3 293.4 517.4 269.1 537.6 268.7z"/></svg>
-                    </div>
+                    </a>
 
-                    <div className="p-0.5 bg-gradient-to-t from-pink-700 to-purple-600 rounded-full">
+                    <a href="https://dribbble.com/estif_z" target="_blank" className="p-0.5 bg-gradient-to-t from-pink-700 to-purple-600 rounded-full hover:scale-110 duration-300">
                         <svg className="w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path d="M156.7 122.8L235.1 201.2C253.3 176.2 264 145.3 264 112C264 97.9 262.1 84.3 258.5 71.4C220.5 80.8 185.9 98.6 156.7 122.8zM122.8 156.7C98.6 185.9 80.8 220.5 71.4 258.5C84.3 262.1 97.9 264 112 264C145.3 264 176.1 253.3 201.2 235.1L122.8 156.7zM320 64C315.4 64 310.8 64.1 306.3 64.4C310 79.7 312 95.6 312 112C312 158.6 296.1 201.4 269.4 235.4L320 286.1L483.3 122.8C438.9 86.1 382.1 64 320 64zM112 312C95.6 312 79.6 310 64.4 306.3C64.2 310.8 64 315.4 64 320C64 382.1 86.1 438.9 122.8 483.3L286.1 320L235.4 269.4C201.4 296.1 158.6 312 112 312zM575.6 333.7C575.8 329.2 576 324.6 576 320C576 257.9 553.9 201.1 517.2 156.7L353.9 320L404.6 370.6C438.6 343.9 481.5 328 528 328C544.4 328 560.4 330 575.6 333.7zM568.5 381.5C555.6 377.9 542 376 527.9 376C494.6 376 463.8 386.7 438.7 404.9L517.1 483.3C541.3 454.1 559.1 419.5 568.5 381.5zM404.9 438.8C386.7 463.8 376 494.7 376 528C376 542.1 377.9 555.7 381.5 568.6C419.5 559.2 454.1 541.4 483.3 517.2L404.9 438.8zM370.6 404.5L320 353.9L156.7 517.2C201 553.9 257.9 576 320 576C324.6 576 329.2 575.9 333.7 575.6C330 560.3 328 544.4 328 528C328 481.4 343.9 438.6 370.6 404.6z"/></svg>
-                    </div>
+                    </a>
                     
                 </div>
-                <div className="mt-10 flex gap-10 text-xl">
-                    <div className="flex gap-3 items-center border-2 rounded-full py-3 px-4 border-purple-600">
+                <div className="mt-10 flex gap-10 text-xl text-white/80">
+                    <a href="https://drive.google.com/uc?export=download&id=1hHg3_dsT1oDl-31QYdp0jTaS0W6_a6RW" className="group flex gap-3 items-center rounded-full py-3 px-4 border-2 border-purple-500/50">
                         <div className="">Get Resume</div>
-                        <Download className=""/>
-                    </div>
-                    <div className=" rounded-full py-3 px-4 flex items-center bg-gradient-to-t from-pink-700 to-purple-600">Contact Me</div>
+                        <Download className="group-hover:ml-2 duration-300"/>
+                    </a>
+                    <a href="#contact" className="rounded-full py-3 px-4 flex items-center bg-gradient-to-t from-pink-700 to-purple-600 hover:text-white duration-300">Contact Me</a>
                 </div>
             </div>
             <img className="Right w-170 h-170   " src="/HeroRight.svg" alt="" />

@@ -5,7 +5,7 @@ export function Footer(){
                 <div className="flex-grow h-[2px] bg-gradient-to-r from-transparent via-purple-500 to-transparent"></div>
             </div>
 
-            <div className="text-white text-lg">© Developer Portfolio by <span className="text-purple-500">Estifanos Zinabu</span></div>
+            <div className="text-white text-lg">© Portfolio by <span className="text-purple-500">Estifanos Zinabu</span></div>
         </div>
     )
 }

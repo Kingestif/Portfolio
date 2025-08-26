@@ -9,7 +9,7 @@ import { Footer } from './components/Footer'
 
 function App() {
   return (
-    <div className='App px-70 py-5 scroll-smooth'>
+    <div className='App px-70 py-5 scroll-smooth | max-sm:px-10'>
       <Navbar />
 
       <section id="hero">

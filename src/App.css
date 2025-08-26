@@ -16,8 +16,6 @@ body{
 
 /* Projects */
 .checkpoints .card{
-    /* border: solid 1px; */
-    padding: 2rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;

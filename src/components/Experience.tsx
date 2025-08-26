@@ -19,7 +19,7 @@ export function Experience() {
 
   return (
     <div
-      className="text-white flex flex-col items-center pt-30 gap-5"
+      className="text-white flex flex-col items-center pt-30 gap-5 max-sm:hidden"
       onMouseMove={handleMouseMove}
       ref={containerRef}
     >
@@ -32,7 +32,7 @@ export function Experience() {
       <div className="timeline flex flex-col gap-5">
         {experiences.map(exp => (
           <div className="checkpoints text-white/80 hover:text-white/90" key={exp.id}>
-            <div className="card p-4 900 rounded-lg relative border-1 border-white/15">
+            <div className="card p-6 900 rounded-lg relative border-1 border-white/15">
               <h1 className="text-center text-[color:#6C63FF] hover:text-[color:#6C63FF]">{exp.duration}</h1>
               <div className="flex items-center gap-6">
                 <svg

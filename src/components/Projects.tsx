@@ -6,11 +6,11 @@ export function Projects(){
         <div className="flex flex-col justify-center items-center gap-10 mt-30">
             <div className="flex flex-col gap-3 text-center">
                 <div className="font-bold text-3xl text-white">Featured <span className="text-purple-500">Projects</span></div>
-                <div className="font-bold text-sm text-gray-300 w-150 text-center">Here are some of my recent projects, showcasing my work with modern web technologies and creative problem-solving. </div>
+                <div className="font-bold text-sm text-gray-300  text-center">Here are some of my recent projects, showcasing my work with modern web technologies and creative problem-solving. </div>
             </div>
-            <div className="flex gap-10 items-center">
+            <div className="flex gap-10 items-center | max-sm:flex-col">
                 {projects.map(project=>(
-                    <div key={project.id} className="flex flex-col w-110 h-110 items-center text-white gap-3 rounded-2xl bg-gray-700/30  hover:scale-105 transition-all duration-200 ease-out shadow-sm  hover:bg-gray-700/50">
+                    <div key={project.id} className="flex flex-col w-110 h-110 max-sm:w-70 max-sm:h-70 items-center text-white gap-3 rounded-2xl bg-gray-700/30  hover:scale-105 transition-all duration-200 ease-out shadow-sm  hover:bg-gray-700/50">
                         <img src={project.imageUrl} alt={project.title} className="rounded-t-2xl overflow-hidden" />
                         <div className="flex justify-around w-full pt-2">
                             {project.tools.map((tool,idx)=>(

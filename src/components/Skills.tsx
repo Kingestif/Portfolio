@@ -40,14 +40,14 @@ export function Skills() {
           <div className="flex-grow h-[2px] bg-gradient-to-r from-transparent via-purple-500 to-transparent"></div>
         </div>
         <div className='text-white text-xl font-bold text-center'>SKILLS</div>
-        <div className="flex w-max animate-scroll hover:pause gap-20">
+        <div className="flex w-max animate-scroll hover:pause gap-20 | max-sm:gap-10">
             {repeatedSkills.map((skill, idx) => (
             <div
                 key={idx}
                 className="flex flex-col items-center gap-2 min-w-[90px] backdrop-blur-md rounded-xl px-4 py-3 border-t-2 border-purple-500
                         shadow-lg hover:scale-110 hover:shadow-2xl transition-transform duration-500 cursor-pointer" 
             >
-                <img className="w-16 h-16" src={skill.icon} alt={skill.name} />
+                <img className="w-16 h-16 | max-sm:w-10 max-sm:h-10" src={skill.icon} alt={skill.name} />
                 <div className="text-white text-sm font-semibold">{skill.name}</div>
             </div>
             ))}

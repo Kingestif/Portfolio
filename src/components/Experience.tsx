@@ -31,12 +31,12 @@ export function Experience() {
 
       <div className="timeline flex flex-col gap-5">
         {experiences.map(exp => (
-          <div className="checkpoints" key={exp.id}>
+          <div className="checkpoints text-white/80 hover:text-white/90" key={exp.id}>
             <div className="card p-4 900 rounded-lg relative border-1 border-white/15">
-              <h1 className="text-center text-purple-300">{exp.duration}</h1>
-              <div className="flex items-center gap-4">
+              <h1 className="text-center text-[color:#6C63FF] hover:text-[color:#6C63FF]">{exp.duration}</h1>
+              <div className="flex items-center gap-6">
                 <svg
-                  className="w-40 h-40 text-purple-500"
+                  className="w-40 h-40 text-[color:#6C63FF]"
                   stroke="currentColor"
                   fill="currentColor"
                   strokeWidth="0"
@@ -50,7 +50,7 @@ export function Experience() {
                 </svg>
                 <div>
                   <h1 className="role font-bold">{exp.title}</h1>
-                  <h1 className="company italic text-purple-300">{exp.company}</h1>
+                  <h1 className="company italic text-[color:#6C63FF]">{exp.company}</h1>
                   <p>{exp.description}</p>
                 </div>
               </div>

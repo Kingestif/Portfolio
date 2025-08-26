@@ -25,7 +25,7 @@ export function Hero(){
                     </a>
                     
                 </div>
-                <div className="mt-10 flex gap-10 text-xl text-white/80">
+                <div className="mt-10 hover:text-white duration-300 flex gap-10 text-xl text-white/80">
                     <a href="https://drive.google.com/uc?export=download&id=1hHg3_dsT1oDl-31QYdp0jTaS0W6_a6RW" className="group flex gap-3 items-center rounded-full py-3 px-4 border-2 border-purple-500/50">
                         <div className="">Get Resume</div>
                         <Download className="group-hover:ml-2 duration-300"/>

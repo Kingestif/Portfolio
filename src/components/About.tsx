@@ -14,7 +14,7 @@ function About() {
                 </div>
             </div>
 
-            <img className="bg-gradient-to-t from-violet-800 to-purple-500 rounded-full w-100 h-100 object-cover" src="/Me.webp" alt="" />
+            <img className="bg-gradient-to-t from-violet-800 to-purple-500 rounded-full w-100 h-100 object-cover opacity-80" src="/Me.webp" alt="" />
         </div>
     );
 }

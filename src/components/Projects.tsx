@@ -5,7 +5,7 @@ export function Projects(){
     return(
         <div className="flex flex-col justify-center items-center gap-10 mt-30">
             <div className="flex flex-col gap-3 text-center">
-                <div className="font-bold text-3xl text-white">Featured <span className="text-purple-500">Projects</span></div>
+                <div className="font-bold text-3xl text-white max-sm:text-2xl">Featured <span className="text-purple-500">Projects</span></div>
                 <div className="font-bold text-sm text-gray-300  text-center">Here are some of my recent projects, showcasing my work with modern web technologies and creative problem-solving. </div>
             </div>
             <div className="flex gap-10 items-center | max-sm:flex-col ">

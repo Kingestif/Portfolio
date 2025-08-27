@@ -1,7 +1,7 @@
 export function Contact() {
   return (
     <div className="w-full text-white/90 px-8 py-20 flex flex-col justify-center my-10 items-center">
-        <div className="text-3xl font-bold text-center p-10 text-white">Contact <span className="text-purple-600">Me</span></div>
+        <div className="text-3xl font-bold text-center p-10 text-white max-sm:text-2xl">Contact <span className="text-purple-600">Me</span></div>
         <div className="grid md:grid-cols-2 gap-16 max-w-6xl w-full max-sm:w-xs">
         
             {/* Left: Request Form */}

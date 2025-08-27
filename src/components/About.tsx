@@ -4,7 +4,7 @@ function About() {
             <div className="Left flex flex-col gap-30 ">
                 <div className="flex flex-col gap-10">
                     <div className="flex flex-col gap-2">
-                        <div className="font-bold text-3xl underline underline-offset-4 decoration-purple-500">ABOUT</div>
+                        <div className="font-bold text-3xl underline underline-offset-4 decoration-purple-500 max-sm:text-2xl">ABOUT</div>
                     </div>
                     
                     <div className="flex flex-col gap-5 text-gray-300">

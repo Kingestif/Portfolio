@@ -47,8 +47,8 @@ export function Skills() {
                 className="flex flex-col items-center gap-2 min-w-[90px] backdrop-blur-md rounded-xl px-4 py-3 border-t-2 border-purple-500
                         shadow-lg hover:scale-110 hover:shadow-2xl transition-transform duration-500 cursor-pointer" 
             >
-                <img className="w-16 h-16 | max-sm:w-10 max-sm:h-10" src={skill.icon} alt={skill.name} />
-                <div className="text-white text-sm font-semibold">{skill.name}</div>
+                <img className="w-16 h-16 | max-sm:w-7 max-sm:h-7" src={skill.icon} alt={skill.name} />
+                <div className="text-white text-sm font-semibold | max-sm:text-xs">{skill.name}</div>
             </div>
             ))}
         </div>

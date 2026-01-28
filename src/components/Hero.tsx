@@ -26,7 +26,7 @@ export function Hero(){
                     
                 </div>
                 <div className="mt-2xl flex gap-10 text-xl text-white/80 whitespace-nowrap | max-sm:text-base max-sm:whitespace-nowrap">
-                    <a href="https://drive.google.com/uc?export=download&id=1nZ0A_wSFGqNTn5eX1CN9eXuqEpzaek1J" className="group flex gap-3 items-center rounded-full py-3 px-4 border-2 hover:text-white duration-300 border-purple-500/50 | max-sm:py-2 max-sm:px-2">
+                    <a href="https://drive.google.com/uc?export=download&id=1ydjUOsUCMwSKL2DApF4MF-dz-obdIW-h" className="group flex gap-3 items-center rounded-full py-3 px-4 border-2 hover:text-white duration-300 border-purple-500/50 | max-sm:py-2 max-sm:px-2">
                         <div className="max-sm:text-xs">Get Resume</div>
                         <Download className="group-hover:ml-2 duration-300 | max-sm:h-3"/>
                     </a>

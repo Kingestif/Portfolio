@@ -5,7 +5,7 @@ export const experiences = [
     company: "Afriwork",
     duration: "(Jun 2025 - Present)",
     description:
-      "Built automated code review and testing system that analyzes code quality, detect issues and integrates an automated testing framework into CI/CD pipelines, reducing review and testing time by 40%.",
+      "Built and optimized core backend services powering a platform serving over 300,000+ users, improving performance and reliability.",
     link: "https://afriworket.com/",
   },
   {

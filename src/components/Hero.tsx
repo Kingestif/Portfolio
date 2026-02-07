@@ -2,7 +2,7 @@ import { Download } from "lucide-react";
 
 export function Hero(){
     return (
-        <div className="pt-40 flex  justify-between text-white/90 | max-sm:pt-0">
+        <div className="pt-40 flex  justify-between text-white/90 fade-in-down | max-sm:pt-0">
             <div className="Left w-1/2 flex flex-col gap-10 pt-7 | max-sm:w-fit max-sm:gap-5">
                 <div className="text-6xl font-medium | max-sm:text-xl w-fit max-sm:whitespace-nowrap ">Estifanos Zinabu</div>
                 <div className="text-4xl text-[color:#6C63FF] | w-fit max-sm:whitespace-nowrap max-sm:text-sm">Full-Stack Developer</div>

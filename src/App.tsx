@@ -1,4 +1,3 @@
-import About from './components/About'
 import { Navbar } from './components/Navbar'
 import { Experience } from './components/Experience'
 import { Projects } from './components/Projects'
@@ -14,10 +13,6 @@ function App() {
 
       <section id="hero">
         <Hero />
-      </section>
-
-      <section id="about">
-        <About />
       </section>
 
       <section id="skills">

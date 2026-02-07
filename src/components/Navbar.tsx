@@ -12,7 +12,6 @@ export function Navbar() {
       {/* Desktop Links */}
       <div className="hidden sm:flex gap-5 text-white/80">
         <a href="#hero" className="hover:text-[#6C63FF] duration-300">Home</a>
-        <a href="#about" className="hover:text-[#6C63FF] duration-300">About</a>
         <a href="#experience" className="hover:text-[#6C63FF] duration-300">Experience</a>
         <a href="#projects" className="hover:text-[#6C63FF] duration-300">Projects</a>
         <a href="#contact" className="hover:text-[#6C63FF] duration-300">Contacts</a>
@@ -30,7 +29,6 @@ export function Navbar() {
       {isOpen && (
         <div className="absolute top-16 right-5 bg-gray-800/95 rounded-lg flex flex-col gap-4 p-5 text-white/80 sm:hidden">
           <a href="#hero" onClick={() => setIsOpen(false)} className="hover:text-[#6C63FF]">Home</a>
-          <a href="#about" onClick={() => setIsOpen(false)} className="hover:text-[#6C63FF]">About</a>
           <a href="#projects" onClick={() => setIsOpen(false)} className="hover:text-[#6C63FF]">Projects</a>
           <a href="#contact" onClick={() => setIsOpen(false)} className="hover:text-[#6C63FF]">Contacts</a>
         </div>

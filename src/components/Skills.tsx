@@ -39,7 +39,7 @@ export function Skills() {
         <div className="relative w-full flex items-center">
           <div className="flex-grow h-[2px] bg-gradient-to-r from-transparent via-purple-500 to-transparent"></div>
         </div>
-        <div className='text-white text-xl font-bold text-center'>SKILLS</div>
+        <div className='font-bold text-3xl underline underline-offset-5 decoration-purple-600 text-white/90 text-center'>SKILLS</div>
         <div className="flex w-max animate-scroll hover:pause gap-20 | max-sm:gap-10">
             {repeatedSkills.map((skill, idx) => (
             <div

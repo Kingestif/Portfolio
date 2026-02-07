@@ -16,7 +16,7 @@ export function Contact() {
             <div className="grid md:grid-cols-2 gap-16 max-w-6xl w-full max-sm:w-xs">
                 {/* Left: Contact Info */}
                 <div className="flex flex-col justify-center gap-8 p-10 rounded-2xl shadow-xl border border-white/30 bg-purple-500/10">
-                    <h2 className="text-3xl font-medium | max-sm:text-xl">Contact Information</h2>
+                    <h2 className="text-3xl font-medium | max-sm:text-xl">Let's Have A Chat</h2>
                     <p className="text-gray-400 text-lg max-sm:text-base">
                         Feel free to reach out to me through the following
                     </p>

@@ -10,7 +10,7 @@ export const experiences = [
   },
   {
     id: 3,
-    title: "Software Engineer Intern",
+    title: "AI/ML Engineer Intern",
     company: "ICog",
     duration: "(Feb 2025 - Aug 2025)",
     description:
@@ -19,7 +19,7 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "Software Engineer Intern",
+    title: "App Developer Intern",
     company: "Eskalate",
     duration: "(Jul 2024 - Oct 2024)",
     description:
